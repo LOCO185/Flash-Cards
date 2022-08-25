@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './components/Header';
 import Game from './Pages/Game';
 import api from "./Utilities/Api";
-// import { InitialState } from "./Utilities/InitialState";
 
 export default class App extends React.Component {
   state = {
